@@ -1,24 +1,35 @@
-# README
+#### Requirements
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You'll need the following installed to run the template successfully:
 
-Things you may want to cover:
+* Ruby 3.1.2
+* bundler - `gem install bundler`
+* PostgreSQL - `brew install postgresql`
 
-* Ruby version
+#### Initial Setup
+* Install other gems using bundler
 
-* System dependencies
+    ```
+    bundle install
+   ```
+* Start postgres server
 
-* Configuration
+    ```
+    brew services start postgresql
+    ```    
+* Create database
 
-* Database creation
+    ```
+    rails db:create
+    ```    
+* Migrate the database
+    ```
+    rails db:migrate
+    ```
 
-* Database initialization
+#### Running application
 
-* How to run the test suite
+```bash
+rails server
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

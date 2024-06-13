@@ -1,12 +1,12 @@
-#### Requirements
+### Requirements
 
-You'll need the following installed to run the template successfully:
+You'll need the following installed to run the application successfully:
 
 * Ruby 3.1.2
 * bundler - `gem install bundler`
 * PostgreSQL - `brew install postgresql`
 
-#### Initial Setup
+### Initial Setup
 * Install other gems using bundler
 
     ```
@@ -27,8 +27,8 @@ You'll need the following installed to run the template successfully:
     rails db:migrate
     ```
 
-#### Running application
-
+### Running application
+To start the application in development mode run the below,
 ```bash
 rails server
 ```
